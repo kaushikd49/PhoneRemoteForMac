@@ -10,6 +10,6 @@
 **** goto URL below ****
 http://122.61.32.77:3000/mac/control
 
-4. Goto the URL on any device's web browser and control your Mac.
+4. Goto the URL on any device's web browser and control your Mac. (Both the device and the Macbook should be in the same network).
 
 The app invokes an applescript to control the Macbook. [Tested on OSX Yosemite 10.10]
