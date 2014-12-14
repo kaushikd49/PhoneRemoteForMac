@@ -19,6 +19,7 @@ class AppleController < ApplicationController
       action = REV_BUTTONS[params["commit"]]
       puts "*** Running applescript #{SCRIPT_PATH} with args #{params["app"]} #{action}***"
       `osascript #{SCRIPT_PATH} #{params["app"]} #{action}`
+      @notice = "Something went wrong executing the applescript" if $?.exitstatus != 0
     end
   end
 end
