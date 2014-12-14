@@ -12,3 +12,4 @@ http://122.61.32.77:3000/mac/control
 
 4. Goto the URL on any device's web browser and control your Mac.
 
+The app invokes an applescript to control the Macbook. [Tested on OSX Yosemite 10.10]
