@@ -1,6 +1,6 @@
 PhoneRemoteForMac::Application.routes.draw do
 
-   match 'apple/home' => 'apple#get'
+   match 'mac/control' => 'apple#get'
 
       	# The priority is based upon order of creation:
   # first created -> highest priority.
