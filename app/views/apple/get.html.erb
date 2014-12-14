@@ -1,0 +1,18 @@
+<%= stylesheet_link_tag "apple", :media => "all" %>
+
+
+
+<div align="center">
+  <%= form_tag("home") do %>
+      <%= select_tag("app", options_for_select(@apps, params["app"]), :style => "width: 50%", :class => "uiButton") %>
+
+      <% @buttons.each_with_index do |(action, name), i| %>
+          <div style="margin: 4%">
+            <%= submit_tag(name, :class => "uiButton", :style => "background-color: ##{@colors[i]}; width: 50%;") %>
+          </div>
+
+      <% end %>
+  <% end %>
+</div>
+
+

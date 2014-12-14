@@ -1,0 +1,16 @@
+.uiButton {
+    border: 1px solid #CCCCCC;
+    display: inline-block;
+    font-size: 31px;
+    padding: 5px 6px 6px;
+    color: #333333;
+    text-align: center;
+}
+
+html {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
